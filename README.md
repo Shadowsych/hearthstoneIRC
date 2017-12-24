@@ -4,7 +4,7 @@
 # Technologies
 - Twitch API: https://dev.twitch.tv/api
 - Twitch Chat OAuth Password Generator: https://twitchapps.com/tmi/
-- PircBot Java IRC: http://www.jibble.org/pircbot.php
+- TMI Javascript (Node): https://www.tmijs.org/
 
 # Design Specifications
 1. The bot reads chat commands from the Twitch chat  
