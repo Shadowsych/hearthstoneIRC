@@ -6,7 +6,6 @@ and responds with a macro onto the streamer's screen.
 - Gmail: hearthstoneirc@gmail.com
 - Twitch.tv Username: HearthstoneIRC
 - Twitch.tv/Gmail Password: HearthstoneIRC2018
-[Twitch Plays Pokemon](http://twitch.tv/twitch_plays_pokemon)
 
 # Dependencies
 - [Twitch API](https://dev.twitch.tv/api)
