@@ -4,8 +4,8 @@
 # Technologies
 - Twitch API: https://dev.twitch.tv/api
 - Twitch Chat OAuth Password Generator: https://twitchapps.com/tmi/
-- TMI Javascript (Node): https://www.tmijs.org/
-- IRC Inputs: https://github.com/hzoo/TwitchPlaysX
+- PyWin32: https://sourceforge.net/projects/pywin32/
+- Python 2.7.x: https://www.python.org/download/releases/2.7/
 
 # Design Specifications
 1.) Accurately read in twitch.tv chat commands when a streamer runs the bot. So let's say a  
