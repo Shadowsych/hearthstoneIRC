@@ -1,17 +1,18 @@
 # Hearthstone IRC  
 A simple bot program that reads screen commands from the Twitch.tv channel chat window  
-and responds with a macro within the streamer's screen.  
+and responds with a macro onto the streamer's screen.  
 
 # Heartstone IRC Credentials  
 - Gmail: hearthstoneirc@gmail.com
 - Twitch.tv Username: HearthstoneIRC
 - Twitch.tv/Gmail Password: HearthstoneIRC2018
+[Twitch Plays Pokemon](http://twitch.tv/twitch_plays_pokemon)
 
 # Dependencies
-- Twitch API: https://dev.twitch.tv/api
-- Twitch Chat OAuth Password Generator: https://twitchapps.com/tmi/
-- PyWin32: https://sourceforge.net/projects/pywin32/
-- Python 2.7.x: https://www.python.org/download/releases/2.7/
+- [Twitch API](https://dev.twitch.tv/api)
+- [Twitch Chat OAuth Password Generator](https://twitchapps.com/tmi/)
+- [PyWin32](https://sourceforge.net/projects/pywin32/)
+- [Python 2.7](https://www.python.org/download/releases/2.7/)
 
 # Design Specifications
 "1.) Accurately read in twitch.tv chat commands when a streamer runs the bot. So let's say a  
