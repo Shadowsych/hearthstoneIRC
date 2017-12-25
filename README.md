@@ -1,10 +1,11 @@
-# Twitch.tv Command Bot
-- for "Polite_Sociopath" in Black Desert Online, North America
+# Hearthstone IRC Chat Command
+- This program was created for "Polite_Sociopath" (Black Desert Online NA) for $100 USD
 
 # Technologies
 - Twitch API: https://dev.twitch.tv/api
 - Twitch Chat OAuth Password Generator: https://twitchapps.com/tmi/
 - TMI Javascript (Node): https://www.tmijs.org/
+- IRC Inputs: https://github.com/hzoo/TwitchPlaysX
 
 # Design Specifications
 1.) Accurately read in twitch.tv chat commands when a streamer runs the bot. So let's say a  
