@@ -6,8 +6,8 @@ config = {
     },
 
     'account': {
-        'username': 'username',
-        'password': 'oauth:' # http://twitchapps.com/tmi/
+        'username': 'hearthstoneirc',
+        'password': 'oauth:3yseic33knkyh07dvokyhzpeevst4w'
     },
 
     'throttled_buttons': {

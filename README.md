@@ -24,3 +24,8 @@ doesn't need to be addressed yet, I'm more concerned with making the core functi
 
 This video is an example of the idea that I want to implement, but I'm mostly concerned with basic functionality.  
 https://www.youtube.com/watch?v=kExwHUQClYg
+
+# Heartstone IRC Twitch Bot
+- Gmail: hearthstoneirc@gmail.com
+- Twitch.tv Username: HearthstoneIRC
+- Twitch.tv/Gmail Password: HearthstoneIRC2018
