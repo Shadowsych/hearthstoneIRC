@@ -1,31 +1,52 @@
-# Hearthstone IRC  
+# Hearthstone IRC
 A simple bot program that reads screen commands from the Twitch.tv channel chat window  
-and responds with a macro onto the streamer's screen.  
+and responds with a macro onto the streamer's screen. 
 
 # Heartstone IRC Credentials  
 - Gmail: hearthstoneirc@gmail.com
 - Twitch.tv Username: HearthstoneIRC
 - Twitch.tv/Gmail Password: HearthstoneIRC2018
 
-# Dependencies
+# Technologies and References
 - [Twitch API](https://dev.twitch.tv/api)
 - [Twitch Chat OAuth Password Generator](https://twitchapps.com/tmi/)
 - [PyWin32](https://sourceforge.net/projects/pywin32/)
 - [Python 2.7](https://www.python.org/download/releases/2.7/)
+- [ASCII Table](https://www.systutorials.com/4670/ascii-table-and-ascii-code/)
 
-# Design Specifications
-"1.) Accurately read in twitch.tv chat commands when a streamer runs the bot. So let's say a  
-streamer types in !Position_1, then the bot would click wherever Position_1 is on the streamers   
-screen.  
+# Set-up (Mandatory)
+1. Go to config/config.py and replace the username and password with your Twitch bot's  
+username and OAuth Password key  
+2. Open the "HSIRC Macros.exe" application  
+3. Install "pywin32" and run it with "python  v2.7"  
+4. Open up your terminal or cmd and and "cd" into this repository's file directory  
+then in the terminal or cmd type "python serve.py" (if your username or password was wrong, it will notify you)  
+5. You are finished setting-up the Twitch bot!  
 
-2.) The bot should be able to click on places on the screen based on what the twitch user types in.  
-It doesn't matter where the bot clicks, as long as it is easily modifiable so that the bot could be  
-changed to click in several different locations.  
+NOTE: Whilst the script is running make sure you have your emulator in focus as your primary window.  
+If you click onto another window, the script won't work.  
+If you're not able to stay focused on one window as you need to do other things with your computer,  
+you could try running all of this from within a virtual machine.  
 
-3.) This is the only difficult part. It has to be able to compensate for lots of commands at once. It   
-doesn't matter how you handle this, but if 100s of people are submitting different commands, it  
-needs to ignore the vast majority of commands, or maybe pick the most used command. This  
-doesn't need to be addressed yet, I'm more concerned with making the core functionality.  
+# Default Chat Commands
+"up" = Move up  
+"down" = Move down  
+"left" = Move left  
+"right" = Move right  
+"click" = Left mouse click  
+"endturn" = End player's turn  
+"play" = Clicks the "Play" button on the bottom-left screen  
+"cancel" = cancels actions  
+"switchl" = Switch between enemy/player through the left-side  
+"switchr" = Switch between enemy/player through the right-side  
+"options" = Opens the options menu  
 
-This video is an example of the idea that I want to implement, but I'm mostly concerned with basic functionality.  
+# Configuring Chat Commands (Optional)
+1. Open the lib/game.py file  
+2. Add or delete new indexes to the "keymap" array 
+3. For each "keymap" array index, the key is the string command the viewer types and the  
+value is the ASCII hexadecimal keyboard key (see the dependencies for information on the ASCII Table)
+
+# Inspiration
+This video inspired the idea to create this Twitch Plays Hearthstone IRC chat bot. 
 https://www.youtube.com/watch?v=kExwHUQClYg"
