@@ -24,9 +24,8 @@ then in the terminal or cmd type "python serve.py" (if your username or password
 5. You are finished setting-up the Twitch bot!  
 
 NOTE: Whilst the script is running make sure you have your emulator in focus as your primary window.  
-If you click onto another window, the script won't work.  
-If you're not able to stay focused on one window as you need to do other things with your computer,  
-you could try running all of this from within a virtual machine.  
+If you click onto another window, the script won't work. If you're not able to stay focused on one window as
+you need to do other things with your computer, you could try running all of this from within a virtual machine.  
 
 # Default Chat Commands
 "up" = Move up  
@@ -36,7 +35,7 @@ you could try running all of this from within a virtual machine.
 "click" = Left mouse click  
 "endturn" = End player's turn  
 "play" = Clicks the "Play" button on the bottom-left screen  
-"cancel" = cancels actions  
+"cancel" = Cancels actions  
 "switchl" = Switch between enemy/player through the left-side  
 "switchr" = Switch between enemy/player through the right-side  
 "options" = Opens the options menu  
