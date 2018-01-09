@@ -19,7 +19,7 @@ and responds with a macro onto the streamer's screen.
 username and OAuth Password key  
 2. Open the "HSIRC Macros.exe" application  
 3. Install "pywin32" and run it with "python  v2.7"  
-4. Open up your terminal or cmd and and "cd" into this repository's file directory  
+4. Open up your terminal or cmd and "cd" into this repository's file directory  
 then in the terminal or cmd type "python serve.py" (if your username or password was wrong, it will notify you)  
 5. You are finished setting-up the Twitch bot!  
 
