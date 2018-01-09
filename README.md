@@ -44,7 +44,7 @@ you need to do other things with your computer, you could try running all of thi
 1. Open the lib/game.py file  
 2. Add or delete new indexes to the "keymap" array 
 3. For each "keymap" array index, the key is the string command the viewer types and the  
-value is the ASCII hexadecimal keyboard key (see the dependencies for information on the ASCII Table)
+value is the ASCII hexadecimal keyboard key (see the "Technologies and References" for information on the ASCII Table)
 
 # Inspiration
 This video inspired the idea to create this Twitch Plays Hearthstone IRC chat bot. 
