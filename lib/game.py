@@ -10,11 +10,11 @@ class Game:
         'left': 0x4A,
         'right': 0x4C,
         'click': 0x4F,
-		'endturn': 0x45,
+	'endturn': 0x45,
         'play': 0x4D,
-		'cancel': 0x4E,
-		'switchl': 0x50,
-		'switchr': 0x55,
+	'cancel': 0x4E,
+	'switchl': 0x50,
+	'switchr': 0x55,
         'options': 0x42
     }
 
